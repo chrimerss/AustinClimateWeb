@@ -8,5 +8,5 @@ share-img: /assets/img/path.jpg
 tags: [climate]
 ---
 <p align="center">
-<img src="/assets/img/preprocess/preprocess.png">
+<img src="https://chrimerss.github.io/AustinClimateWeb/assets/img/preprocess/preprocess.png">
 </p>

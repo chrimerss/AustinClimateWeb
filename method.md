@@ -7,5 +7,5 @@ tags: [people]
 ---
 
 <p align="center">
-<img src="/assets/img/preprocess/site.png">
+<img src="https://chrimerss.github.io/AustinClimateWeb/assets/img/preprocess/site.png">
 </p>
