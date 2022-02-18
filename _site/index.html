@@ -22,8 +22,6 @@
   
 
   
-  <link rel="alternate" type="application/rss+xml" title="Austin Climate" href="http://localhost:4000/feed.xml">
-  
 
   
 
@@ -92,8 +90,8 @@
   
   <meta name="twitter:card" content="summary_large_image">
   
-  <meta name="twitter:site" content="@daattali">
-  <meta name="twitter:creator" content="@daattali">
+  <meta name="twitter:site" content="@">
+  <meta name="twitter:creator" content="@">
 
   <meta property="twitter:title" content="Future Austin Climate">
   <meta property="twitter:description" content="How is future Austin climate like?">
@@ -124,18 +122,24 @@
   <div class="collapse navbar-collapse" id="main-navbar">
     <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="/aboutme">About US</a>
+            <a class="nav-link" href="/method">Method</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/dataprocess">Data process</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Resources</a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="https://beautifuljekyll.com">Beautiful Jekyll</a>
-                  <a class="dropdown-item" href="https://www.markdowntutorial.com/">Learn markdown</a>
+                  <a class="dropdown-item" href="https://pcmdi.llnl.gov/CMIP6/">CMIP6</a>
+                  <a class="dropdown-item" href="https://www.ipcc.ch/">IPCC</a>
             </div>
           </li>
         
           <li class="nav-item">
-            <a class="nav-link" href="https://deanattali.com">Researchers</a>
+            <a class="nav-link" href="/aboutme">About US</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.jsg.utexas.edu/researcher/dev_niyogi/">UT</a>
           </li>
         <li class="nav-item">
           <a class="nav-link" id="nav-search-link" href="#" title="Search">
@@ -171,25 +175,18 @@
   <script>
     var searchjson = '[ \
        \
-        { \
-          "title"    : "Sample blog post", \
-          "category" : "test", \
-          "url"      : "/2020-02-28-test-markdown/", \
-          "date"     : "February 28, 2020" \
-        }, \
        \
         { \
-          "title"    : "Flake it till you make it", \
-          "category" : "bookstest", \
-          "url"      : "/2020-02-26-flake-it-till-you-make-it/", \
-          "date"     : "February 26, 2020" \
-        }, \
-       \
-       \
-        { \
-          "title"    : "About me", \
+          "title"    : "About Us", \
           "category" : "page", \
           "url"      : "/aboutme/", \
+          "date"     : "January 1, 1970" \
+        }, \
+       \
+        { \
+          "title"    : "Climate data processing", \
+          "category" : "climate", \
+          "url"      : "/dataprocess/", \
           "date"     : "January 1, 1970" \
         }, \
        \
@@ -197,6 +194,13 @@
           "title"    : "Future Austin Climate", \
           "category" : "page", \
           "url"      : "/", \
+          "date"     : "January 1, 1970" \
+        }, \
+       \
+        { \
+          "title"    : "Methods", \
+          "category" : "people", \
+          "url"      : "/method/", \
           "date"     : "January 1, 1970" \
         }, \
        \
@@ -294,119 +298,18 @@
     <div class=" col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 ">
       
 
-      <iframe width="900" height="800" frameborder="0" scrolling="no" src="//plotly.com/~chrimerss/36.embed"></iframe>
+      <h2>Average surface temperature</h2>
+<iframe width="900" height="800" frameborder="0" scrolling="no" src="//plotly.com/~chrimerss/39.embed"></iframe>
+<h2>Maximum surface temperature</h2>
+<iframe width="900" height="800" frameborder="0" scrolling="no" src="//plotly.com/~chrimerss/41.embed"></iframe>
+<h2>Minimum surface temperature</h2>
+<iframe width="900" height="800" frameborder="0" scrolling="no" src="//plotly.com/~chrimerss/43.embed"></iframe>
+<h2>Annual precipitation</h2>
+<iframe width="900" height="800" frameborder="0" scrolling="no" src="//plotly.com/~chrimerss/36.embed"></iframe>
 
 
 
 <div class="posts-list">
-  
-  <article class="post-preview">
-    
-
-    
-
-    <a href="http://localhost:4000/2020-02-28-test-markdown/">
-      <h2 class="post-title">Sample blog post</h2>
-
-      
-        <h3 class="post-subtitle">
-        Each post also has a subtitle
-        </h3>
-      
-    </a>
-
-    <p class="post-meta">
-      
-      Posted on February 28, 2020
-    </p>
-
-    
-
-    
-    
-
-    <div class="post-entry">
-      
-      
-
-
-      
-      
-        <a href="http://localhost:4000/2020-02-28-test-markdown/" class="post-read-more">[Read&nbsp;More]</a>
-      
-    </div>
-    
-
-    
-    <div class="blog-tags">
-      <span>Tags:</span>
-      
-      <a href="http://localhost:4000/tags#test">test</a>
-      
-    </div>
-    
-
-   </article>
-  
-  <article class="post-preview">
-    
-
-    
-
-    <a href="http://localhost:4000/2020-02-26-flake-it-till-you-make-it/">
-      <h2 class="post-title">Flake it till you make it</h2>
-
-      
-        <h3 class="post-subtitle">
-        Excerpt from Soulshaping by Jeff Brown
-        </h3>
-      
-    </a>
-
-    <p class="post-meta">
-      
-      Posted on February 26, 2020
-    </p>
-
-    
-    <div class="post-image post-image-small">
-      <a href="http://localhost:4000/2020-02-26-flake-it-till-you-make-it/" aria-label="Thumbnail">
-        <img src="http://localhost:4000/assets/img/thumb.png" alt="Post thumbnail">
-      </a>
-    </div>
-    
-
-    
-    
-    <div class="post-image post-image-short">
-      <a href="http://localhost:4000/2020-02-26-flake-it-till-you-make-it/" aria-label="Thumbnail">
-        <img src="http://localhost:4000/assets/img/thumb.png" alt="Post thumbnail">
-      </a>
-    </div>
-    
-
-    <div class="post-entry">
-      
-      Under what circumstances should we step off a path? When is it essential that we finish what we start? If I bought a bag of peanuts and had an allergic reaction, no one would fault me if I threw it out. If I ended a relationship with a woman who...
-      
-      
-        <a href="http://localhost:4000/2020-02-26-flake-it-till-you-make-it/" class="post-read-more">[Read&nbsp;More]</a>
-      
-    </div>
-    
-
-    
-    <div class="blog-tags">
-      <span>Tags:</span>
-      
-      <a href="http://localhost:4000/tags#books">books</a>
-      
-      <a href="http://localhost:4000/tags#test">test</a>
-      
-    </div>
-    
-
-   </article>
   
 </div>
 
@@ -427,61 +330,13 @@
     <div class="row">
       <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
       <ul class="list-inline text-center footer-links"><li class="list-inline-item">
-    <a href="/feed.xml" title="RSS">
-      <span class="fa-stack fa-lg" aria-hidden="true">
-        <i class="fas fa-circle fa-stack-2x"></i>
-        <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
-      </span>
-      <span class="sr-only">RSS</span>
-    </a>
-  </li><li class="list-inline-item">
-    <a href="mailto:someone@example.com" title="Email me">
+    <a href="mailto:dev.niyogi@jsg.utexas.edu" title="Email me">
       <span class="fa-stack fa-lg" aria-hidden="true">
         <i class="fas fa-circle fa-stack-2x"></i>
         <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
       </span>
       <span class="sr-only">Email me</span>
    </a>
-  </li><li class="list-inline-item">
-    <a href="https://www.facebook.com/deanattali" title="Facebook">
-      <span class="fa-stack fa-lg" aria-hidden="true">
-        <i class="fas fa-circle fa-stack-2x"></i>
-        <i class="fab fa-facebook fa-stack-1x fa-inverse"></i>
-      </span>
-      <span class="sr-only">Facebook</span>
-   </a>
-  </li><li class="list-inline-item">
-    <a href="https://github.com/daattali" title="GitHub">
-      <span class="fa-stack fa-lg" aria-hidden="true">
-        <i class="fas fa-circle fa-stack-2x"></i>
-        <i class="fab fa-github fa-stack-1x fa-inverse"></i>
-      </span>
-      <span class="sr-only">GitHub</span>
-   </a>
-  </li><li class="list-inline-item">
-    <a href="https://twitter.com/daattali" title="Twitter">
-      <span class="fa-stack fa-lg" aria-hidden="true">
-        <i class="fas fa-circle fa-stack-2x"></i>
-        <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
-      </span>
-      <span class="sr-only">Twitter</span>
-   </a>
-  </li><li class="list-inline-item">
-    <a href="https://www.youtube.com/c/daattali" title="YouTube">
-      <span class="fa-stack fa-lg" aria-hidden="true">
-        <i class="fas fa-circle fa-stack-2x"></i>
-        <i class="fab fa-youtube fa-stack-1x fa-inverse"></i>
-      </span>
-      <span class="sr-only">YouTube</span>
-   </a>
-  </li><li class="list-inline-item">
-    <a href="https://patreon.com/DeanAttali" title="Patreon">
-      <span class="fa-stack fa-lg" aria-hidden="true">
-        <i class="fas fa-circle fa-stack-2x"></i>
-        <i class="fab fa-patreon fa-stack-1x fa-inverse"></i>
-      </span>
-      <span class="sr-only">Patreon</span>
-    </a>
   </li></ul>
 
       
@@ -495,7 +350,7 @@
       
         &nbsp;&bull;&nbsp;
         <span class="author-site">
-          <a href="http://localhost:4000/">MyWebsite.com</a>
+          <a href="http://localhost:4000/">https://www.jsg.utexas.edu/researcher/dev_niyogi/</a>
         </span>
       
 
