@@ -16,11 +16,12 @@ author: Allen
 navbar-links:
   Method: "method"
   Data process: "dataprocess"
+  Climate Indices: "indices"
   Resources:
     - CMIP6: "https://pcmdi.llnl.gov/CMIP6/"
     - IPCC: "https://www.ipcc.ch/"
   About US: "aboutme"  
-  UT: "https://www.jsg.utexas.edu/researcher/dev_niyogi/"
+  # UT: "https://www.jsg.utexas.edu/researcher/dev_niyogi/"
 
 # --- Logo --- #
 
