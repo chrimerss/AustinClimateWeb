@@ -73,7 +73,7 @@
   
 
   
-  <meta property="og:site_name" content="Austin Climate">
+  <meta property="og:site_name" content="Austin Climate Assessment">
   <meta property="og:title" content="Methods">
   <meta property="og:description" content="">
 
@@ -111,11 +111,27 @@
 
 
 <body>
-
+  <style>
+    /* body { */
+      /* background-image: url('/assets/img/noaa-unsplash.jpeg'); */
+    /* } */
+    body::after {
+      content: "";
+      background: url('/assets/img/austin.jpeg');
+      opacity: 0.4;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      position: absolute;
+      z-index: -1;   
+}
+    </style>
+  <!-- <p style="background-image: url('/assets/img/noaa-unsplash.jpeg');"></p> -->
   
 
 
-  <nav class="navbar navbar-expand-xl navbar-light fixed-top navbar-custom top-nav-regular"><a class="navbar-brand" href="http://localhost:4000/">Austin Climate</a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
+  <nav class="navbar navbar-expand-xl navbar-light fixed-top navbar-custom top-nav-regular"><a class="navbar-brand" href="http://localhost:4000/">Austin Climate Assessment</a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
@@ -269,7 +285,7 @@
       
 
       <p align="center">
-<img src="https://chrimerss.github.io/AustinClimateWeb/assets/img/preprocess/site.png" />
+<img src="https://chrimerss.github.io/AustinClimateWeb/assets/img/preprocess/site.png" height="150%" width="150%" />
 </p>
 
 

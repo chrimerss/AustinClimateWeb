@@ -25,7 +25,23 @@ common-js:
 {% include head.html %}
 
 <body>
-
+  <style>
+    /* body { */
+      /* background-image: url('{{ site.baseurl }}/assets/img/noaa-unsplash.jpeg'); */
+    /* } */
+    body::after {
+      content: "";
+      background: url('{{ site.baseurl }}/assets/img/austin.jpeg');
+      opacity: 0.4;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      position: absolute;
+      z-index: -1;   
+}
+    </style>
+  <!-- <p style="background-image: url('/assets/img/noaa-unsplash.jpeg');"></p> -->
   {% include gtm_body.html %}
 
   {% include nav.html %}
